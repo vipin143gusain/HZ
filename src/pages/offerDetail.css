@@ -1,0 +1,735 @@
+
+.welcomeMsg {
+  background: #fbedec;
+  color: #495057;
+  padding: 12px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+.hideTab {
+  display: none;
+}
+.showTab {
+  display: block;
+}
+.btnBgRemove.btn-secondary.disabled,
+.btnBgRemove.btn-secondary:disabled {
+  background: none !important;
+}
+.respMsg {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  border: 1px dashed red;
+  margin: 10px;
+  padding: 10px;
+}
+frame.pdfStyle {
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.existCustomer {
+  padding: 15px 15px 0;
+  overflow: hidden;
+  border: 1px dashed #f23939;
+  margin: 10px auto 8px;
+  width: 91%;
+}
+.existCustomer b {
+  margin-right: 5px;
+}
+.existCustomer p {
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.existCustomer h2 {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 22px;
+  color: red;
+}
+canvas.react-pdf__Page__canvas {
+  width: 100% !important;
+  height: auto !important;
+}
+.width40 {
+  width: 50%;
+  margin: 0 auto;
+}
+.vehicleBox .card {
+  background: none;
+  border: none;
+}
+.helloZidLogoWraper,
+.infoContainer {
+  overflow: auto;
+}
+.whiteWrapper {
+  background: #fff;
+  /* height: 100vh; */
+  overflow: auto;
+}
+.centerContainer {
+  background: #fff;
+  overflow: auto;
+  height: 100%;
+  padding: 0 0px;
+}
+.heroBanner {
+  width: 100%;
+  height: auto;
+  margin-top: 0px;
+}
+.whiteBg {
+  background: #fff;
+  padding: 0px 4px 0px;
+  height: 24px;
+}
+.whiteBg p {
+  font-size: 10px;
+  color: #343a40;
+  text-align: center;
+}
+.redBg {
+  padding: 10px 20px 0px;
+  background: #f32c2c;
+  margin-top: 10px;
+  min-height: 80px;
+}
+.redBg p {
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+}
+.motorClubTxt {
+  font-size: 16pt;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  letter-spacing: -1px;
+}
+.pinkBgCol {
+  background: #faeeed;
+  padding: 20px 20px 10px;
+  border-radius: 5px;
+  width: 100%;
+}
+.fontSize10 {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+.paraTxt {
+  font-size: 15px;
+  font-weight: 400px;
+  color: red;
+  text-align: center;
+}
+input.inputBox {
+  border: none;
+  border-bottom: 1px solid #c5bfbf;
+  border-radius: 0;
+  background: none;
+  font-size: 14px;
+  padding: 0;
+  text-transform: capitalize;
+  width: 97%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.height38 {
+  height: 38px;
+}
+input.inputBox::placeholder {
+  color: #a19f9f;
+  font-size: 13px;
+}
+input.inputBox.form-control:focus {
+  background: none !important;
+  box-shadow: none !important;
+  border-bottom: 1px solid #c5bfbf !important;
+}
+.vehicleBox {
+  width: 100%;
+  overflow: hidden;
+}
+.cardBodyWrapper .form-group {
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+button.btnBgRemove,
+button.btnBgRemove.btn-secondary:hover {
+  background: none;
+  border: none;
+  padding: 0;
+  box-shadow: none;
+}
+.card-body.cardBodyWrapper {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.vehicleBox label,
+.vehicleBoxLabel {
+  /* font-family: 'Josefin Sans', sans-serif; */
+  font-size: 14px;
+  font-weight: 300;
+  padding-top: 8px;
+  color: #495057;
+  height: 40px;
+}
+.vehicleBoxLabel {
+  color: #687cda !important;
+}
+input.vehicleInput.form-control:focus {
+  border: 1px solid #f23939;
+  background: #fff;
+  border-bottom: 1px solid #f23939;
+  box-shadow: none;
+}
+.addIconWrapper,
+.regBtnWrapper {
+  overflow: hidden;
+}
+
+input.vehicleInput {
+  width: 80%;
+  margin-left: 10px;
+  border-radius: 0;
+  border: 1px solid #f23939;
+  text-transform: uppercase;
+  float: right;
+  height: 44px;
+}
+input.vehicleInput2 {
+  width: 60% !important;
+}
+input.vehicleInput::placeholder {
+  color: #c5bfbf;
+  font-size: 13px;
+}
+
+.addIcon {
+  font-size: 24px;
+  color: #f23939;
+  padding-right: 0px;
+}
+button.registerBtn.btn-primary.disabled,
+button.registerBtn.btn-primary:disabled {
+  background: #f23939;
+}
+button.registerBtn {
+  width: 40%;
+  background: #f23939;
+  border: none;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+.checkBoxTxt {
+  font-size: 13px;
+}
+.AddVehTxt {
+  text-align: left;
+  color: red;
+  text-decoration: underline;
+  font-size: 12px;
+}
+.pdfImg {
+  width: 100%;
+  height: auto;
+}
+.modelBoxBorder {
+  border: 1px solid #f23939;
+  border-radius: 5px;
+  height: 86vh;
+  overflow: scroll;
+}
+.tncTxt {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16pt;
+  font-weight: 300;
+  color: #5d73d1;
+}
+.modalHeight {
+  height: 98vh;
+}
+.blueTxtColor {
+  color: #5d73d1;
+  text-decoration: underline;
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+  background: #f23939 !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+.colorRed {
+  color: #f23939;
+  opacity: 1 !important;
+  padding-top: 5px;
+  margin-top: 10px;
+}
+.modalTxt {
+  font-size: 17px;
+  color: green;
+}
+.congratTxt {
+  font-size: 26px;
+  font-weight: 600;
+  margin-top: 30%;
+  color: #f23939;
+}
+.congratTxt span {
+  color: #707070;
+  text-transform: capitalize;
+}
+.congratBelowTxt {
+  font-size: 16px;
+}
+button.availBtn,
+button.availBtn:focus {
+  background: #f23939;
+  padding: 6px 30px;
+  color: #fff;
+  border-radius: 8px;
+}
+.vehicleErrorMsg {
+  text-align: center;
+  font-size: 12px;
+  color: #f23939;
+  padding-left: 16px;
+}
+.borderRadius {
+  border: 1px solid #687cda;
+  border-radius: 5px;
+}
+.col-4.borderSide {
+  border-right: 1px solid #687cda;
+  margin: 11px 0px;
+  min-height: 112px;
+}
+.exceedMemberError {
+  width: 100%;
+  text-align: center;
+  color: red;
+  text-transform: capitalize;
+}
+.col-4 p {
+  min-height: 40px;
+  text-align: center;
+  color: #687cda;
+  font-size: 13px;
+  margin: 10px 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.col-4 p:last-child {
+  color: #f23939;
+}
+.borderRiteNone {
+  border-right: none !important;
+}
+.horizontalLine,
+.horizontalLine2 {
+  width: 94%;
+  height: 1px;
+  background-color: #687cda;
+  margin: 0 auto;
+}
+.horizontalLine2 {
+  width: 100%;
+  margin: 10px 0;
+}
+.serviceCatWrapper .carBg {
+  background: #ffebeb;
+  padding: 10px;
+  border-radius: 100px;
+}
+.serviceCatWrapper :before {
+  color: #f23939;
+  font-size: 30px;
+}
+.serviceCatWrapper :hover:before {
+  color: #ffebeb;
+}
+.serviceCatWrapper .carBg:hover {
+  background: #f23939;
+}
+.serviceCatWrapper .react-multiple-carousel__arrow {
+  background: #f23939 !important;
+}
+
+.carouselTxt {
+  text-align: center;
+}
+.carouselTxt p {
+  font-size: 11px;
+  text-align: center;
+  margin: 10px 0 0 0;
+}
+/* .serviceCatWrapper
+  li.react-multi-carousel-item.react-multi-carousel-item--active {
+  margin-right: 17px;
+} */
+.serviceCatWrapper h2 {
+  font-size: 17px;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 0;
+  margin-bottom: 14px;
+  text-align: center;
+  background: #ee0021;
+}
+.invalidVehicleNo {
+  color: #ee0021;
+  font-size: 12px;
+  text-align: center;
+  padding-left: 41px;
+  margin-bottom: 10px;
+}
+.offerBox {
+  width: 60%;
+  margin: 20px auto;
+}
+.transparentBg {
+  background-color: #000000ab;
+  margin: 0 !important;
+  padding: 5px;
+  height: 100vh;
+}
+.memberDataWrapper {
+  padding: 0 38px;
+  margin-top: 4%;
+}
+.offerTitle {
+  margin: auto;
+  padding: 10px;
+}
+.addVehicleBtn {
+  margin: 0px 0 0 46px;
+}
+.addVehicleTxt {
+  text-align: left;
+  float: left;
+  line-height: 26px;
+  margin-right: 6px;
+  font-size: 14px;
+  color: #000;
+}
+.addBtnCss {
+  font-size: 15px !important;
+  padding: 0 7px !important;
+  font-weight: bold !important;
+  border: 0;
+  background: black;
+  color: #fff;
+  border-radius: 100px;
+}
+.hideContent {
+  display: none;
+}
+.showContent {
+  display: block;
+}
+
+.loaderBg {
+  position: absolute;
+  height: 110vh;
+  background: white;
+  width: 100%;
+  z-index: 9999;
+}
+p.loadingTxt {
+  position: absolute;
+  text-align: center;
+  font-size: 20px;
+  color: #f23939;
+  left: 0;
+  right: 0;
+  top: 40%;
+  bottom: 0;
+}
+
+.clickBtn {
+  margin: 0 auto;
+  display: block;
+  outline: none;
+  background: #e82f36;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 8px 21px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  margin: 20px auto 0;
+}
+
+/* Spinner Loader css starts */
+.spinner-border.spinnerLoader {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0 auto;
+  top: 40%;
+  width: 5rem;
+  height: 5rem;
+  color: red;
+}
+
+.serviceCatWrapper .react-multiple-carousel__arrow {
+  background: transparent !important;
+  min-width: 0;
+  margin-left: -19px;
+  margin-right: -16px;
+}
+.serviceCatWrapper .react-multiple-carousel__arrow::before {
+  font-size: 32px;
+  color: #fff;
+  display: block;
+  font-family: revicons;
+  text-align: center;
+  z-index: 2;
+  position: relative;
+  color: red !important;
+  font-weight: bolder;
+}
+/* .modal-header .close {
+  margin: -1rem !important;
+} */
+
+.couponBox p {
+  font-weight: bold;
+  text-align: center;
+  color: #dc555a;
+  padding-bottom: 0;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.couponCode {
+  margin: 30px 0;
+  border-top: 1px solid #dc555a;
+  border-bottom: 1px solid #dc555a;
+  padding: 20px;
+}
+
+.couponCode p.couponTxt {
+  width: 40%;
+  margin: 0 auto;
+  border: 1px dashed;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  padding-bottom: 10px !important;
+  font-size: 20px;
+}
+
+.btn-link {
+  color: #dc555a !important;
+  text-transform: uppercase;
+  font-weight: bold !important;
+}
+.card-header {
+  background: #faeeed !important;
+}
+.card-body {
+  background-color: #faeeed;
+}
+/* .serviceCatWrapper .react-multi-carousel-item {
+  width: 76px !important;
+  margin: 0 30px;
+} */
+.serviceCatWrapper .modal-body {
+  padding: 0;
+}
+.btnCollapse {
+  width: 100%;
+  text-align: left !important;
+}
+.btnCollapse i,
+.btnCollapse i:hover:before {
+  float: right;
+  color: #dc555a;
+}
+.couponCode {
+  margin: 30px 0;
+}
+.serviceCatWrapper .modal-dialog {
+  margin: 0;
+}
+.amountWrapper p {
+  font-size: 10px;
+  text-align: center;
+  color: #000;
+}
+
+.cardCss {
+  width: 100%;
+  height: auto;
+  border-radius: 13px;
+}
+
+.mainOfferImgWrapper {
+  position: relative;
+  overflow: hidden;
+}
+.offerMainImg {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.couponBox {
+  position: absolute;
+  top: 40%;
+  text-align: center;
+  left: 0;
+  right: 0;
+  background: #f31e29;
+  max-width: 52%;
+  margin: 0 auto;
+  color: #fff;
+  padding: 7px 0;
+  border-radius: 5px;
+  font-size: 4vw;
+}
+.redeemBtn {
+  position: relative;
+  margin: 0 auto;
+  bottom: 200px;
+  display: block;
+  left: 0;
+  right: 0;
+  background: #fff;
+  border: 0;
+  border-radius: 3px;
+  font-size: 4vw;
+  color: #f31e29;
+  font-weight: bold;
+  padding: 2px 8px;
+}
+.btm40 {
+  bottom: 40px !important;
+}
+.limitedOfferTxt {
+  border-top: 1px solid #f31e29;
+  text-align: right;
+  font-size: 12px;
+}
+
+.detailTxtWrapper,
+.tncWrapper,
+.limitedOfferTxt {
+  margin: 20px auto;
+  width: 98%;
+}
+.limitedOfferTxt {
+  width: 87% !important;
+}
+.detailTxtWrapper h4,
+.tncWrapper h4 {
+  color: #ee0021;
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 20px;
+}
+.textOl li {
+  color: #000;
+  padding-bottom: 6px;
+  font-size: 3.5vw;
+  padding-right: 17px;
+}
+a.linkCss {
+  color: #ee0021 !important;
+}
+.backArrow {
+  position: absolute;
+  top: 20px;
+  left: 11px;
+  font-size: 36px;
+  color: #ee0021;
+}
+.memberProfileTxt {
+  color: #ee0021;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 5%;
+}
+.offerWidth {
+  width: 90%;
+  margin: 0 auto !important;
+  font-size: 15px;
+}
+
+.bgWrapper {
+  border-top: 4px solid #ee0021;
+  margin-top: 20px;
+  /* background: url('./images/offerpage/offersPageBg.png') no-repeat; */
+  background-size: cover;
+  background-color: #c8d1eb;
+  height: 100%;
+  padding-bottom: 10px;
+}
+/* .react-multi-carousel-item {
+  width: 101px !important;
+}
+.react-multi-carousel-list {
+  width: 80% !important;
+  margin: 0 auto;
+}
+.carousel-item-padding-40-px {
+  padding-left: 39px !important;
+} */
+@media only screen and (min-width: 768px) {
+  .offerWidth {
+    width: 50%;
+  }
+  .addVehicleBtn {
+    margin: 0px 0 0 202px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .offerBox {
+    width: 60%;
+  }
+  .offerWidth {
+    width: 100%;
+    font-size: 11px;
+  }
+  .addVehicleBtn {
+    margin: 0px 0 0 27px;
+  }
+  .addVehicleTxt {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .col-4 p {
+    font-size: 10px;
+  }
+  .offerBox {
+    width: 60%;
+  }
+  .offerWidth {
+    width: 100%;
+    font-size: 11px;
+  }
+  .addVehicleBtn {
+    margin: 0px 0 0 27px;
+  }
+  .addVehicleTxt {
+    font-size: 10px;
+  }
+}

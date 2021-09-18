@@ -1,0 +1,2133 @@
+@font-face {
+  font-family: 'AcuminVariableConcept';
+  src: local('AcuminVariableConcept'),
+    url(./assets/fonts/AcuminVariableConcept.otf) format('opentype');
+}
+@font-face {
+  font-family: 'GoodDog';
+  src: local('GoodDog'), url(./assets/fonts/GoodDog.otf) format('opentype');
+}
+@font-face {
+  font-family: 'MyriadPro-Bold';
+  src: local('MyriadPro-Bold'),
+    url(./assets/fonts/MyriadPro-Bold.otf) format('opentype');
+}
+@font-face {
+  font-family: 'MyriadPro-Regular';
+  src: local('MyriadPro-Regular'),
+    url(./assets/fonts/MyriadPro-Regular.otf) format('opentype');
+}
+@font-face {
+  font-family: 'MyriadPro-Semibold_0';
+  src: local('MyriadPro-Semibold_0'),
+    url(./assets/fonts/MyriadPro-Semibold_0.otf) format('opentype');
+}
+@font-face {
+  font-family: 'RobotoCondensed-Regular';
+  src: local('RobotoCondensed-Regular'),
+    url(./assets/fonts/RobotoCondensed-Regular.ttf) format('truetype');
+}
+
+/* START Removing increment Button from Number Input field */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+/* END */
+
+body {
+  background-color: #fff !important;
+}
+
+.benefits-section {
+  display: none !important;
+}
+.white-text {
+  color: #fff !important;
+}
+
+/* START | HEADER */
+.nav-text {
+  font-family: 'RobotoCondensed-Regular' !important;
+  margin: 0 20px !important;
+}
+/* END | HEADER */
+
+.top-heading {
+  background-color: #e6eff4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.top-heading div {
+  font-size: 1.8rem;
+  color: #ce001b;
+}
+.hero-text-bold {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.hero-container {
+  background-color: #e6eff4;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.hero-container img {
+  min-width: 65%;
+  max-width: 100%;
+  height: auto;
+}
+
+.sol-con-con {
+  background-color: #e6eff4;
+}
+.solutions-container {
+  background-color: #e6eff4;
+  margin-top: -42px !important;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* .slick-track {
+  width: 10000px !important;
+}
+.slick-prev,
+.slick-next {
+  width: 50px !important;
+  height: 50px !important;
+}
+.slick-prev::before,
+.slick-next::before {
+  font-size: 50px !important;
+  color: #ce001b !important;
+}
+.slick-prev {
+  left: -50px !important;
+}
+.slick-next {
+  right: -50px !important;
+} */
+
+.solutions-container {
+}
+.sol-box-con {
+  padding: 0 30px;
+}
+.sol-box {
+  width: 200px !important;
+  border: 1px solid #ce001b;
+  border-radius: 16px;
+  text-align: center;
+  background-color: #fff;
+}
+.sol-box .title {
+  font-size: 1.2rem;
+  color: #ce001b;
+  font-weight: 600;
+  border-bottom: 1px solid #ce001b;
+  padding: 3px;
+}
+.costs-container {
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+  padding: 8px 3px;
+}
+.costs-container .cost-box {
+  /* flex: 0.5 */
+}
+.costs-container .subtext {
+  color: #ce001b;
+  font-weight: 600;
+  font-size: 0.6rem;
+}
+.costs-container .cost-num {
+  font-size: 1.2rem;
+}
+.know-more-btn {
+  display: inline-flex;
+  background-color: #ce001b;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 4px 8px;
+  border-radius: 5px;
+  margin-bottom: 6px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.we-create {
+  margin-top: 50px;
+  font-family: 'GoodDog';
+  font-size: 2.2rem;
+  text-align: center;
+  color: #ce001b;
+}
+
+.create-logos {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.based-icon-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.4rem;
+}
+.based-icon-cont {
+  height: 70px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.based-icon-cont img {
+  width: 100%;
+}
+
+.margin-div {
+  padding-bottom: 80px;
+}
+.hr-line {
+  height: 1px;
+  width: 70%;
+  margin: 30px auto;
+  background-color: #ce001b;
+}
+
+.backed-logo-con {
+  margin-top: 40px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: center;
+}
+.backed {
+  width: 150px;
+  margin: 0 20px;
+}
+.backed img {
+  width: 100%;
+}
+.glogo {
+  position: relative;
+  top: 8px;
+}
+.badge-icon-con {
+  width: 70px;
+}
+.badge-icon-con img {
+  width: 100%;
+}
+.margin-div-2 {
+  padding-bottom: 60px;
+}
+
+.partner-text {
+  margin-top: 20px;
+}
+.partners-con {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+.plogo-con {
+  margin: 0 30px;
+}
+
+.right-box-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+}
+.proud-strip {
+  background-color: #e6eff4;
+  height: 250px;
+  overflow: hidden;
+}
+.proud-heading {
+  margin-top: 30px;
+  margin-left: 30px;
+  color: #ce001b;
+  font-size: 1.6rem;
+}
+.member-title {
+  color: #ce001b;
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+.car-con {
+  position: relative;
+  margin-left: 180px;
+  margin-top: -50px;
+}
+.car-con img {
+  width: 330px;
+  position: relative;
+}
+.mclogo-con img {
+  width: 180px;
+}
+.join-club-hr {
+  margin: 0px auto;
+  margin-top: 10px;
+}
+.join-club-heading {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.register-btn {
+  background-color: #fff;
+  color: #ce001b;
+  padding: 7px 20px;
+  font-size: 1.2rem;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+/* START | FOOTER */
+.footer-con {
+  padding: 50px 50px;
+  background-color: #ce001b;
+}
+.f-links-con {
+  display: flex;
+  color: #fff;
+  font-size: 0.8rem;
+}
+.f-links-col {
+  margin-right: 30px;
+}
+.wa-block {
+  display: flex;
+  align-items: center;
+}
+.wa-logo-con {
+  width: 60px;
+  height: 60px;
+}
+.wa-logo-con img {
+  width: 100%;
+}
+.wa-text-con {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.wa-text-con div {
+  font-size: 1.2rem;
+  color: #fff;
+}
+.rights-con {
+  margin-top: 80px;
+  color: #fff;
+  font-size: 0.8rem;
+}
+.media-links-con {
+  display: flex;
+  align-items: center;
+}
+.media-link {
+  margin-left: 20px;
+}
+
+.media-link img {
+  margin: 0 8px;
+}
+/* END | FOOTER */
+
+/* START | FOOTER SMALL */
+.footer-con-small {
+  color: #fff;
+  font-size: 0.8rem;
+  padding: 40px 50px;
+}
+.footer-sm-title {
+  font-weight: 600;
+}
+.sm-connect-media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.media-links-sm {
+  margin-top: 20px;
+}
+.media-links-sm img {
+  margin: 0 10px;
+}
+/* END | FOOTER SMALL */
+
+/* START | CYBER PROTECT */
+.prod-heading {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-size: 3.4rem;
+  color: #ce001b;
+}
+.highlight-con {
+  margin-top: 50px;
+  display: flex;
+}
+.red-btn {
+  background-color: #ce001b;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: 1px solid #ce001b;
+}
+
+.white-btn {
+  background-color: #fff;
+  color: #ce001b;
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: 1px solid #ce001b;
+}
+
+.action-line {
+  margin-top: 20px;
+  font-family: 'GoodDog';
+  font-size: 2.2rem;
+  color: #ce001b;
+}
+.apply-btn {
+  display: inline-flex;
+  margin-top: 20px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  background-color: #101823;
+  color: #fff;
+  border: 1px solid #ce001b;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+.ref-img {
+  margin: 0 30px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+}
+.ref-img img {
+  width: 100%;
+}
+
+.risk-logo-con {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 60px 0;
+}
+.risk-logo-con .risk-logo-div {
+  text-align: center;
+  width: 120px;
+  color: #ce001b;
+}
+
+.cover-heading {
+  margin: 0 30px;
+  padding: 10px 20px;
+  border: 1px solid #ce001b;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  text-align: center;
+}
+.points-container {
+  margin: 30px 70px;
+}
+.covered-con {
+  display: block;
+  align-items: flex-start;
+  margin: 6px 0;
+}
+.red-bullet {
+  width: 8px;
+  height: 8px;
+  border-radius: 20px;
+  background-color: #ce001b;
+  margin-right: 8px;
+  display: inline-block;
+}
+.point-text {
+  display: inline;
+}
+
+.centre-text {
+  text-align: center;
+}
+.hr-line-3 {
+  height: 1px;
+  margin: 30px auto;
+  background-color: #ce001b;
+}
+
+.disclaim-text {
+  margin: 0 40px;
+}
+.download-con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0;
+}
+.download-con div {
+  font-size: 1.2rem;
+}
+.download-con img {
+  margin: 0 30px;
+}
+/* END | CYBER PROTECT */
+
+/* START | LAPTOP INSURANCE */
+.highlight-helper {
+  margin-top: 5px;
+}
+/* END | LAPTOP INSURANCE */
+
+/* START | BIKE INSURANCE */
+.covered-only {
+  width: 50%;
+  margin: 0 auto;
+}
+.subbullets {
+  margin-left: 14px;
+}
+.download-con-bike {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.download-con-bike .bike-dl-block {
+  display: flex;
+  margin: 0 20px;
+}
+.doc-img {
+  margin-right: 20px;
+  width: 50px;
+}
+.doc-text-div {
+  width: 80px;
+}
+.doc-text-div img {
+  width: 30px;
+}
+
+.extra-offer-con {
+  padding: 30px 0 50px 0;
+  display: flex;
+  justify-content: center;
+  font-size: 1.4rem;
+  color: #ce001b;
+}
+.offer-left {
+  margin-right: 50px;
+  text-align: center;
+}
+.percent {
+  font-size: 4.4rem;
+}
+.extra-offer-con .apply-btn {
+  font-size: 0.8rem;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.offer-mid,
+.offer-right {
+  margin-top: 44px;
+}
+/* END | BIKE INSURANCE */
+
+.notice-text {
+  color: #ce001b;
+  text-align: center;
+}
+
+.points-health {
+  width: 50%;
+  margin: 30px auto 20px auto;
+}
+
+/* START | REGISTRATION */
+.reg-main-con {
+  height: 100vh;
+}
+.reg-left-con {
+  height: 100%;
+}
+.reddish-bg {
+  background-color: #f23939;
+  color: #fff;
+}
+.bluish-bg {
+  background-color: #d2dde3;
+}
+
+.reg-title {
+  position: absolute;
+  flex-grow: 1;
+}
+.reg-title img {
+  width: 100px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.reg-prod-name {
+  font-size: 3rem;
+  color: #ce001b;
+  margin-bottom: 30px;
+  width: 80%;
+  text-align: center;
+}
+.title-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.reg-img-con {
+  width: 50%;
+  margin: 0 auto;
+}
+.title-block img {
+  width: 100%;
+}
+.unlock-text1 {
+  font-size: 2rem;
+  color: #ce001b;
+}
+.reg-img-unlock {
+  width: 20%;
+}
+
+.reg-right-con {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.right-block-con {
+  width: 70%;
+  margin: 0 auto;
+}
+.reg-helper-text {
+  color: #0b102b;
+  opacity: 0.5;
+  font-size: 0.7rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+  width: 180px;
+}
+.reg-input-con input {
+  height: 30px;
+  padding: 0 15px 0 40px;
+  border: 0;
+  box-shadow: 0px 10px 20px #00000017;
+  border-radius: 8px;
+  width: 230px;
+}
+input:focus {
+  outline: none;
+}
+img.mcLogoCss {
+  width: 24%;
+  height: auto;
+  display: block;
+  margin: 2% auto;
+}
+.myBtnCss {
+  padding: 10px;
+  display: block;
+  margin: 0 auto 10%;
+  text-align: center;
+  float: none;
+  width: 16%;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 7px 40px;
+  text-transform: uppercase;
+  background-color: #f23939;
+  color: #fff;
+  box-shadow: 0px 5px 20px #00000026;
+}
+.myBtnCss-disabled {
+  padding: 10px;
+  display: block;
+  margin: 0 auto 10%;
+  text-align: center;
+  float: none;
+  width: 16%;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 7px 40px;
+  text-transform: uppercase;
+  background-color: rgb(242 57 57 / 58%);
+  color: #fff;
+  box-shadow: 0px 5px 20px #00000026;
+}
+.reg-red-btn {
+  display: inline-flex;
+  padding: 7px 40px;
+  text-transform: uppercase;
+  background-color: #f23939;
+  color: #fff;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 0.8rem;
+  box-shadow: 0px 5px 20px #00000026;
+}
+
+.reg-red-btn-disabled {
+  display: inline-flex;
+  padding: 7px 40px;
+  text-transform: uppercase;
+  background-color: rgb(242 57 57 / 58%);
+  color: #fff;
+  border-radius: 50px;
+  cursor: not-allowed;
+  margin-left: 10px;
+  font-size: 0.8rem;
+  box-shadow: 0px 5px 20px #00000026;
+}
+.mob-input {
+  position: relative;
+}
+.country-code {
+  position: absolute;
+  top: 1px;
+  height: 30px;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  font-size: 0.7rem;
+}
+
+.otp-container {
+  display: inline-flex !important;
+}
+.otp-input-con input {
+  width: 30px !important;
+  padding: 0 6px;
+  margin-right: 20px;
+}
+.resend-otp-btn {
+  display: inline-flex;
+  margin-top: 10px;
+  font-size: 0.7rem;
+  color: #f23939;
+  cursor: pointer;
+}
+.resend-otp-btn:hover {
+  text-decoration: underline;
+}
+
+.right-con-card3 {
+  justify-content: flex-start;
+}
+.pingBg {
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+}
+.card-3 {
+  width: 100%;
+  margin: 0 auto;
+  background: #f8eeee;
+}
+.info-heading {
+  margin-top: 60px;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #f23939;
+  margin-bottom: 28px;
+}
+.card-3 input {
+  border-bottom: 1px solid #a1a1a1;
+  border-radius: 0;
+  background-color: transparent;
+  color: #6c757d;
+  width: 70%;
+  outline: none;
+  float: left;
+  box-shadow: none;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+.card-3 .input-error {
+  border: 1px solid #f23939;
+}
+.vehNumBox {
+  float: left;
+  width: 38%;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+.myWidth {
+  width: 30% !important;
+}
+.myWidth2 {
+  width: 70%;
+}
+.myWidth2 input {
+  border: 1px solid #f23939;
+  margin-top: 0;
+  background: #fff;
+  float: left;
+}
+.reg-helper-text-2 {
+  color: #616161;
+  font-size: 16px;
+  margin-top: 8px;
+  width: 22%;
+  float: left;
+}
+.info-row2-con {
+  margin-top: 30px;
+}
+
+.vehicle2,
+.vehicle3 {
+  margin-top: 10px;
+}
+
+.terms-con {
+  margin: 16px 0;
+}
+.agree-terms {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: #707070;
+}
+.agree-terms a {
+  color: #5d73d1;
+}
+.info-submit {
+  margin-left: 0;
+  padding: 10px 40px;
+}
+
+.card-4 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #616161;
+}
+.congrats-text {
+  text-transform: uppercase;
+  color: #ce001b;
+  font-size: 1.4rem;
+}
+.lead-name {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 28px;
+}
+.motor-text {
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+.benefits-btn {
+  margin-top: 60px;
+  padding: 10px 20px;
+}
+
+.field-err-text {
+  display: inherit;
+  margin-top: 5px;
+  font-size: 0.7rem;
+  color: #f23939;
+}
+
+.card-10 {
+  width: 60%;
+  max-width: 400px;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #616161;
+}
+.card-10 div {
+  margin: 5px 0;
+}
+.card-10 a {
+  color: inherit;
+}
+.already-text {
+  width: 60%;
+  margin: 10px auto;
+  text-align: center;
+}
+.ty-prod-con {
+  display: inline-block;
+}
+.ty-prod-links {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.card-15 {
+  color: #ce001b;
+}
+/* END | REGISTRATION */
+
+/* START | SUPER BENEFITS STRIP  */
+.super-con {
+  margin: 40px 0;
+}
+.super-con img {
+  width: 100%;
+}
+/* END | SUPER BENEFITS STRIP  */
+
+/* START | MOTOR CLUB LANDING PAGE  */
+.motorClubPage {
+  overflow: hidden;
+  margin-top: 8%;
+  margin-bottom: 7%;
+}
+.mobRespCss,
+.mobRespCss2 {
+  width: 50%;
+  float: left;
+}
+
+.respWidthRite {
+  width: 80%;
+  float: left;
+}
+.respWidthLeft {
+  width: 70%;
+  margin-right: 10%;
+  float: right;
+}
+
+.moto-main-con {
+  height: 100vh;
+  background-color: #f23939;
+  position: relative;
+  overflow: hidden;
+}
+.login-text{
+  opacity: 1;
+  font-size: 20px;
+}
+.mc-country-code{
+  height:40px;
+  font-size: 1rem;
+  padding:0 10px;
+}
+.reg-input-con .login-input{
+  height:40px;
+  border-radius: 5px;
+  width:200px;
+  padding-left: 12px;
+}
+.mc-otp-input input{
+    border-radius: 5px;
+    height: 38px;
+    border: 1px solid #80808061;
+}
+.mc-otp-input{
+  margin-bottom: 0px;
+}
+.motor-hero {
+  position: absolute;
+  right: 0;
+  width: 80%;
+}
+.moto-icon {
+  position: relative;
+  padding-top: 40px;
+  padding-left: 80px;
+}
+.moto-icon .logo-white-bg {
+  width: 120px;
+}
+.moto-icon .motor-club-text {
+  display: block;
+  margin-top: 40px;
+}
+.motto {
+  margin-top: 40px;
+  font-size: 1rem;
+  color: #fff;
+  width: 380px;
+}
+.reg-here-btn {
+  /* margin-top: 15px; */
+  display: inline-flex;
+  /* padding: 10px 24px; */
+  padding: 7px 40px;
+  text-transform: uppercase;
+  background-color: #e30012;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  box-shadow: 0px 5px 20px #00000026;
+  text-decoration: none;
+  margin-left: 0px;
+  border:none;
+
+}
+.reg-here-btn-disabled{
+    display: inline-flex;
+    padding: 7px 40px;
+    text-transform: uppercase;
+    background-color: rgb(242 57 57 / 58%);
+    color: #fff;
+    border-radius: 5px;
+    cursor: not-allowed;
+    margin-left: 0px;
+    font-size: 0.8rem;
+    box-shadow: 0px 5px 20px #00000026;
+    border:none;
+}
+.reg-here-btn:hover {
+  color: #fff;
+}
+
+.mcReg-input-con input{
+    border: 1px solid #0000004f;
+    height: 40px;
+    padding: 10px 13px;
+    border-radius: 2px;
+    width:200px;
+    margin-top: 3px;
+}
+.nameConainer{
+  display:flex;
+  gap:10px;
+  margin:5px 0;
+}
+.vehicleCon{
+  display:flex;
+  gap:10px;
+}
+
+.vehRow{
+  display:flex;
+  gap:10px;
+  align-items: center;
+}
+
+.vehRow img{
+  border: 1px solid #00000045;
+  padding: 1px 3px;
+  height: 40px;
+  width: 45px;
+}
+.mcAddVehicleBtn{
+    border-radius: 12px;
+    display: inline-block;
+    padding: 3px 8px;
+    margin: 5px 0;
+    background-color: #cbc7c7;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.reg-plus-btn {
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  color: red;
+  position: absolute;
+  left: -2px;
+  cursor: pointer;
+  top: 45%;
+}
+/* END | MOTOR CLUB LANDING PAGE  */
+
+.veh-row {
+  display: inline-block;
+  align-items: center;
+}
+.veh-row input {
+  width: auto;
+  flex-grow: 1;
+}
+.reg-plus-last {
+  visibility: hidden;
+}
+
+.plus-show {
+  visibility: visible;
+}
+.plus-hide {
+  visibility: hidden;
+}
+
+/* START | FOR MOBILE RESPONSIVE */
+@media screen and (max-width: 600px) {
+  .top-heading {
+    padding-top: 20px;
+  }
+  .top-heading div {
+    font-size: 1.2rem;
+  }
+  .hero-text-bold {
+    font-size: 1.4rem;
+  }
+  .hero-container {
+    padding: 50px 20px;
+  }
+  .solutions-container {
+    width: 100%;
+  }
+
+  .sol-box {
+    width: 200px !important;
+  }
+  .slick-slide {
+    margin: 0px 0px;
+  }
+  .sol-box-con {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+  }
+  .slick-prev {
+    left: 25px !important;
+    z-index: 100;
+  }
+  .slick-next {
+    right: 25px !important;
+  }
+
+  .we-create {
+    font-size: 1.4rem;
+  }
+  .based-icon-box {
+    font-size: 1rem;
+  }
+  .based-icon-cont {
+    height: 50px;
+    width: 50px;
+  }
+  .backed {
+    width: 120px;
+  }
+  .badge-con-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .backed-text,
+  .partner-text {
+    margin: 20px 30px;
+  }
+  .margin-div {
+    padding-bottom: 30px;
+  }
+  .margin-div-2 {
+    padding-bottom: 20px;
+  }
+
+  .partners-con {
+    margin: 0px 30px;
+  }
+  .plogo-con {
+    margin: 0 5px;
+  }
+  .plogo-con img {
+    width: 70px;
+  }
+
+  /* START | PROUD OWNER STRIP MOBILE */
+  .proud-strip {
+    height: auto;
+    overflow: visible;
+  }
+  .car-con {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 0px;
+    text-align: center;
+  }
+  .car-con img {
+    width: 230px;
+    position: relative;
+  }
+
+  .proud-heading {
+    font-size: 1.2rem;
+  }
+  .member-title {
+    margin-top: 20px;
+  }
+  .mem-benefits-con {
+    padding: 20px 30px;
+  }
+  .right-box-con {
+    margin-top: 0px;
+    margin-bottom: 25px;
+  }
+  /* END | PROUD OWNER STRIP MOBILE */
+
+  /* START | FOOTER SMALL MOBILE  */
+  .footer-con-small {
+    font-size: 0.7rem;
+    padding: 30px 30px;
+  }
+  .sm-connect-media {
+    margin-top: 26px;
+  }
+  /* END | FOOTER SMALL MOBILE  */
+}
+
+/* START | PRODUCT PAGES MOBILE  */
+@media screen and (max-width: 600px) {
+  .prod-header-part {
+    margin: auto 20px;
+  }
+  .prod-heading {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+  }
+  .ref-img {
+    margin: 40px 50px 40px 50px;
+    height: auto;
+  }
+  .highlight-con {
+    flex-direction: column;
+    text-align: center;
+  }
+  .action-line {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+  .apply-btn-con {
+    text-align: center;
+  }
+
+  .risk-logo-con {
+    margin: 40px 0;
+  }
+  .risk-logo-con .risk-logo-div img {
+    width: 30px;
+  }
+  .points-container {
+    margin: 30px 50px;
+  }
+  .centre-text {
+    margin: auto 40px;
+  }
+  .download-con {
+    margin: 30px 0;
+  }
+  .download-con div {
+    font-size: 1rem;
+  }
+  .download-con img {
+    width: 40px;
+    margin: 0 10px;
+  }
+
+  .covered-only {
+    width: auto;
+    margin: 0 30px;
+  }
+  .download-con-bike {
+    flex-direction: column;
+    align-items: center;
+  }
+  .download-con-bike .bike-dl-block {
+    margin: 10px 0;
+  }
+
+  .extra-offer-con {
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+  }
+  .offer-left {
+    margin-right: 0;
+  }
+  .extra-offer-con .apply-btn {
+    margin-left: 0;
+  }
+
+  .points-health {
+    width: auto;
+  }
+}
+/* END | PRODUCT PAGES MOBILE  */
+
+/* START | REGISTRATION PAGE MOBILE  */
+@media screen and (max-width: 600px) {
+  .reg-main-con {
+    height: auto;
+  }
+  .reg-title img {
+    width: 70px;
+    margin-left: 10px;
+    margin-top: 5px;
+  }
+  .title-block {
+    display: none;
+  }
+  .reg-right-con {
+    height: 100vh;
+  }
+  .reg-red-btn {
+    margin-top: 10px;
+    margin-left: 0px;
+  }
+
+  .card-10 {
+    width: 80%;
+  }
+}
+/* END | REGISTRATION PAGE MOBILE  */
+
+/* START | MOTOR CLUB LANDING MOBILE */
+
+@media screen and (max-width: 600px) {
+  .myWidth2 input {
+    height: 40px;
+    padding-left: 10px;
+  }
+  .myBtnCss {
+    width: 60%;
+    margin-bottom: 20px;
+    border:none;
+    outline:none;
+  }
+  .reg-plus-btn {
+    top: 38%;
+  }
+  .terms-con {
+    margin: 60px 0 30px;
+  }
+  .vehNumBox {
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 0;
+  }
+  .mcCSS {
+    width: 100% !important;
+    height: 60px;
+  }
+  .reg-helper-text-2 {
+    width: 30%;
+    font-size: 16px;
+  }
+  .pingBg {
+    width: 80%;
+    height: 100vh;
+  }
+  img.mcLogoCss {
+    width: 50%;
+    margin: 10px auto 20px;
+  }
+
+  .info-heading {
+    font-size: 18px;
+    width: 50%;
+    margin: 20px auto 40px;
+  }
+
+  .reg-here-btn {
+    margin: 0 auto 10%;
+    display: block;
+    width: 40%;
+    /* padding: 10px 15px; */
+    text-align: center;
+  }
+  .respWidthLeft,
+  .respWidthRite {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+    float: none;
+  }
+  .respWidthRite {
+    width: 90% !important;
+  }
+  .mobRespCss,
+  .mobRespCss2 {
+    width: 100%;
+    float: none;
+  }
+  .moto-icon {
+    padding-top: 10px;
+    padding-left: 20px;
+  }
+  .moto-icon .logo-white-bg {
+    width: 70px;
+  }
+  .moto-icon .motor-club-text {
+    margin-top: 180px;
+    width: 90%;
+  }
+  .motto {
+    width: auto;
+  }
+}
+/* END | MOTOR CLUB LANDING MOBILE */
+
+/* END | FOR MOBILE RESPONSIVE */
+
+.timer-con {
+  display: inline-flex;
+  margin-left: 10px;
+  color: grey;
+}
+.disable-btn {
+  pointer-events: none;
+  color: grey;
+}
+
+/* START | CONTACT PAGE */
+.con-grid {
+  margin-bottom: 120px;
+}
+.connect-heading {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 3.4rem;
+  font-weight: 700;
+  color: #ce001b;
+}
+.con-timings {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: 700;
+}
+.con-info {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+}
+.con-block {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+.con-block img {
+  width: 45px;
+  margin-right: 20px;
+}
+.con-block a {
+  display: block;
+  text-decoration: none;
+  color: initial;
+}
+/* END | CONTACT PAGE */
+
+/* START | CONTACT PAGE MOBILE */
+@media screen and (max-width: 600px) {
+  .connect-heading {
+    font-size: 1.8rem;
+  }
+  .cx-img {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .cx-img img {
+    width: 100%;
+  }
+  .con-info {
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+}
+/* END | CONTACT PAGE MOBILE */
+
+.mc-reg-link {
+  text-decoration: none;
+}
+
+/* START | FAQS */
+.que-row {
+  display: flex;
+  align-items: center;
+}
+.f-plus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #666;
+  width: 25px;
+  height: 25px;
+  border-radius: 50px;
+  margin-right: 20px;
+  font-size: 1.4rem;
+}
+
+.ans-body {
+  /* border-bottom: 1px solid grey; */
+}
+/* END | FAQS */
+
+.tnc-on {
+  margin: 20px;
+}
+
+.go-to-home .benefits-btn {
+  margin-top: 0;
+}
+.go-to-home {
+  margin-top: 60px;
+}
+
+.tabs.active-tabs {
+  /* background: red; */
+  padding: 10px 0 4px;
+  width: auto;
+  color: red;
+}
+#DuplicateVehNoErrorMsg {
+  color: red;
+  font-size: 15px;
+  text-align: center;
+  border: 1px solid;
+  padding: 10px;
+  margin: 0px 10px 0;
+}
+.welcomeMsg {
+  background: #fbedec;
+  color: #495057;
+  padding: 12px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+.hideTab {
+  display: none;
+}
+.showTab {
+  display: block;
+}
+.btnBgRemove.btn-secondary.disabled,
+.btnBgRemove.btn-secondary:disabled {
+  background: none !important;
+}
+.respMsg {
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  border: 1px dashed red;
+  margin: 10px;
+  padding: 10px;
+}
+frame.pdfStyle {
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.existCustomer {
+  padding: 15px 15px 0;
+  overflow: hidden;
+  border: 1px dashed #f23939;
+  margin: 10px auto 8px;
+  width: 91%;
+}
+.existCustomer b {
+  margin-right: 5px;
+}
+.existCustomer p {
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.existCustomer h2 {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 22px;
+  color: red;
+}
+canvas.react-pdf__Page__canvas {
+  width: 100% !important;
+  height: auto !important;
+}
+.width40 {
+  width: 30%;
+  margin: 0 auto;
+}
+.vehicleBox .card {
+  background: none;
+  border: none;
+}
+.helloZidLogoWraper,
+.infoContainer {
+  overflow: auto;
+}
+.whiteWrapper {
+  background: #fff;
+  height: 100vh;
+  overflow: auto;
+}
+.centerContainer {
+  background: #fff;
+  overflow: auto;
+  height: 100%;
+  padding: 0 20px;
+}
+.motorClubTxt {
+  font-size: 16pt;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+  letter-spacing: -1px;
+}
+.pinkBgCol {
+  background: #fbedec;
+  padding: 20px 0px 10px;
+  border-radius: 5px;
+  width: 100%;
+}
+.fontSize10 {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+.paraTxt {
+  font-size: 14px;
+  font-weight: 400px;
+}
+input.inputBox {
+  border: none;
+  border-bottom: 1px solid #c5bfbf;
+  border-radius: 0;
+  background: none;
+  font-size: 13px;
+  padding-left: 0;
+  text-transform: capitalize;
+  width: 70%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.height38 {
+  height: 38px;
+}
+input.inputBox::placeholder {
+  color: #a19f9f;
+  font-size: 13px;
+}
+input.inputBox.form-control:focus {
+  background: none !important;
+  box-shadow: none !important;
+  border-bottom: 1px solid #c5bfbf !important;
+}
+.vehicleBox {
+  width: 100%;
+  overflow: hidden;
+}
+.cardBodyWrapper .form-group {
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+button.btnBgRemove,
+button.btnBgRemove.btn-secondary:hover {
+  background: none;
+  border: none;
+  padding: 0;
+  box-shadow: none;
+}
+.card-body.cardBodyWrapper {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.vehicleBox label,
+.vehicleBoxLabel {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 12pt;
+  font-weight: 300;
+  padding-top: 8px;
+  color: #495057;
+}
+.vehicleBoxLabel {
+  color: #687cda !important;
+}
+input.vehicleInput.form-control:focus {
+  border: 1px solid #f23939;
+  background: #fff;
+  border-bottom: 1px solid #f23939;
+  box-shadow: none;
+}
+.addIconWrapper,
+.regBtnWrapper {
+  overflow: hidden;
+}
+input.vehicleInput {
+  width: 90%;
+  margin-left: 10px;
+  border-radius: 0;
+  border: 1px solid #f23939;
+  text-transform: uppercase;
+  float: right;
+}
+input.vehicleInput2 {
+  width: 60% !important;
+}
+input.vehicleInput::placeholder {
+  color: #c5bfbf;
+  font-size: 13px;
+}
+
+.addIcon {
+  font-size: 24px;
+  color: #f23939;
+  padding-right: 0px;
+}
+button.registerBtn.btn-primary.disabled,
+button.registerBtn.btn-primary:disabled {
+  background: #f23939;
+}
+button.registerBtn {
+  width: 40%;
+  background: #f23939;
+  border: none;
+  border-radius: 10px;
+}
+.checkBoxTxt {
+  font-size: 11px;
+}
+.pdfImg {
+  width: 100%;
+  height: auto;
+}
+.modelBoxBorder {
+  border: 1px solid #f23939;
+  border-radius: 5px;
+  height: 68vh;
+  overflow: scroll;
+}
+.tncTxt {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16pt;
+  font-weight: 300;
+  color: #5d73d1;
+}
+.modalHeight {
+  height: 98vh;
+}
+.blueTxtColor {
+  color: #5d73d1;
+  text-decoration: underline;
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+  background: #f23939 !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+.colorRed {
+  color: #f23939;
+  opacity: 1 !important;
+  padding-top: 5px;
+  margin-top: 10px;
+}
+.modalTxt {
+  font-size: 17px;
+  color: green;
+}
+.congratTxt {
+  font-size: 26px;
+  font-weight: 600;
+  margin-top: 30%;
+  color: #f23939;
+}
+.congratTxt span {
+  color: #707070;
+  text-transform: capitalize;
+}
+.congratBelowTxt {
+  font-size: 16px;
+}
+button.availBtn,
+button.availBtn:focus {
+  background: #f23939;
+  padding: 6px 30px;
+  color: #fff;
+  border-radius: 8px;
+}
+.vehicleErrorMsg {
+  text-align: center;
+  font-size: 12px;
+  color: #f23939;
+  padding-left: 16px;
+}
+.borderRadius {
+  border: 1px solid #687cda;
+  border-radius: 5px;
+}
+.col-4.borderSide {
+  border-right: 1px solid #687cda;
+  margin: 11px 0px;
+  /* min-height: 112px; */
+}
+.exceedMemberError {
+  width: 100%;
+  text-align: center;
+  color: red;
+  text-transform: capitalize;
+}
+.col-4 p {
+  min-height: 30px;
+  text-align: center;
+  color: #687cda;
+  font-size: 13px;
+  margin: 10px 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.col-4 p:last-child {
+  color: #f23939;
+}
+.borderRiteNone {
+  border-right: none !important;
+}
+.horizontalLine,
+.horizontalLine2 {
+  width: 94%;
+  height: 1px;
+  background-color: #687cda;
+  margin: 0 auto;
+}
+.horizontalLine2 {
+  width: 100%;
+  margin: 10px 0;
+}
+.serviceCatWrapper .carBg {
+  background: #ffebeb;
+  padding: 10px;
+  border-radius: 100px;
+}
+.serviceCatWrapper .react-multiple-carousel__arrow {
+  background: transparent !important;
+  min-width: 0;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+.serviceCatWrapper :before {
+  color: #f23939;
+  font-size: 30px;
+}
+.serviceCatWrapper :hover:before {
+  color: #ffebeb;
+}
+.serviceCatWrapper .carBg:hover {
+  background: #f23939;
+}
+
+.serviceCatWrapper .react-multiple-carousel__arrow::before {
+  font-size: 30px;
+  color: #fff;
+  display: block;
+  font-family: revicons;
+  text-align: center;
+  z-index: 2;
+  position: relative;
+  color: red !important;
+  font-weight: bolder;
+}
+
+.carouselTxt {
+  text-align: center;
+}
+.carouselTxt p {
+  font-size: 10px;
+  text-align: center;
+  margin: 10px 0 0 0;
+}
+/* .serviceCatWrapper
+  li.react-multi-carousel-item.react-multi-carousel-item--active {
+  margin-right: 17px;
+} */
+.serviceCatWrapper h2 {
+  font-size: 14px;
+  color: #f23939;
+  font-weight: bold;
+  border-bottom: 1px solid #687cda;
+  padding-bottom: 10px;
+  margin-bottom: 14px;
+  padding-left: 13px;
+}
+.invalidVehicleNo {
+  color: red;
+  font-size: 12px;
+  text-align: center;
+  padding-left: 17px;
+}
+.offerBox {
+  border: 1px solid;
+  width: 44%;
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+  background: #ffebeb;
+  color: #f23939;
+  display: inline-block;
+  min-height: 150px;
+  border-radius: 5px;
+}
+.modal-dialog.transparentBg {
+  width: 95%;
+}
+.modal-content {
+  width: 50%;
+  margin: 0 auto;
+}
+.modal-open .modal {
+  background-color: #1f1f1fcf;
+}
+.memberDataWrapper {
+  padding: 0 38px;
+  margin: 4% auto 5%;
+  width: 40%;
+}
+
+.offerTitle {
+  margin: auto;
+  padding: 10px;
+}
+.addVehicleBtn {
+  margin: 10px -14px;
+}
+.addVehicleTxt {
+  text-align: right;
+  float: left;
+  line-height: 20px;
+  margin-right: 6px;
+  font-size: 16px;
+  color: #687cda;
+}
+.addBtnCss {
+  font-size: 27px !important;
+  padding: 0px 13px !important;
+  font-weight: bold !important;
+}
+.content.active-content {
+  margin-bottom: 10px;
+}
+
+.serviceCatWrapper .react-multiple-carousel__arrow {
+  background: transparent;
+}
+.serviceCatWrapper .react-multiple-carousel__arrow--right::before,
+.serviceCatWrapper .react-multiple-carousel__arrow--left::before {
+  color: #fef500;
+  font-weight: bolder;
+}
+
+.modal-header .close {
+  margin: -1rem !important;
+}
+.colorRed::before {
+  color: red !important;
+}
+.card-header {
+  background: #faeeed !important;
+}
+.btn-link {
+  color: #f30f16 !important;
+  text-transform: uppercase;
+  font-weight: bold !important;
+}
+.couponBox {
+  background-color: #faeeed;
+  padding: 20px 0;
+  border: 1px solid #ccc;
+}
+.couponBox p {
+  font-weight: 500;
+  text-align: center;
+  color: #f30f16;
+  padding-bottom: 0;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.couponCode p.couponTxt {
+  width: 40%;
+  margin: 0 auto;
+  border: 1px dashed;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  padding-bottom: 10px !important;
+}
+
+.serviceCatWrapper .modal-body {
+  padding: 0;
+}
+.btnCollapse {
+  width: 100%;
+  text-align: left !important;
+}
+.btnCollapse i,
+.btnCollapse i:hover:before {
+  float: right;
+  color: #dc555a !important;
+}
+.couponCode {
+  margin: 30px 0;
+}
+.serviceCatWrapper .modal-dialog {
+  margin: 0;
+}
+.btn.focus,
+.btn:focus {
+  box-shadow: none !important;
+}
+@media only screen and (max-width: 360px) {
+  .offerBox {
+    width: 44%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .reg-helper-text-2 {
+    font-size: 14px;
+  }
+  .col-4 p {
+    font-size: 10px;
+  }
+  .vehicleBox label,
+  .vehicleBoxLabel {
+    font-size: 11px;
+  }
+  .offerBox {
+    width: 43%;
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .offerBox {
+    width: 22%;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+  .memberDataWrapper {
+    width: 100%;
+    margin-bottom: 30%;
+  }
+  .col-4 p {
+    font-size: 10px;
+  }
+  .serviceCatWrapper h2 .webPadLeft {
+    padding-left: 22px !important;
+  }
+  .width40 {
+    width: 40%;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 2400px) {
+  .serviceCatWrapper {
+    width: 100%;
+    margin: 0 auto 0px;
+    padding-bottom: 20px;
+    background: #fbfbfb;
+  }
+  .offerBox {
+    width: 30%;
+  }
+  .react-multi-carousel-list {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .serviceCatWrapper h2 {
+    text-align: center;
+    font-size: 18px;
+    border-bottom: none;
+    padding-top: 17px;
+  }
+  .horizontalLine2 {
+    border-bottom: none;
+  }
+  .content.active-content {
+    width: 50%;
+    margin: 20px auto;
+  }
+  .webPadLeft {
+    padding-left: 72px !important;
+  }
+  .serviceCatWrapper .modal-dialog {
+    max-width: 60%;
+    margin: 0 auto;
+  }
+  .couponCode p.couponTxt {
+    width: 20%;
+  }
+  .card-body {
+    padding: 20px 35px !important;
+    text-align: justify;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+  .react-multi-carousel-list {
+    width: 64%;
+    margin: 0 auto;
+  }
+  .serviceCatWrapper h2 {
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid #e1e2e4;
+  }
+  .horizontalLine2 {
+    border-bottom: 1px solid #e1e2e4;
+  }
+  .content.active-content {
+    width: 60%;
+    margin: 0 auto 3%;
+  }
+  .memberDataWrapper {
+    margin-bottom: 5%;
+    margin-top: 3%;
+  }
+  .offerBox {
+    width: 31%;
+  }
+  .couponCode p.couponTxt {
+    width: 20%;
+  }
+  .card-body {
+    padding: 20px 35px !important;
+    text-align: justify;
+  }
+  /* .marLeftZero { margin-left: 32px;} */
+}
